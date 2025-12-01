@@ -7,9 +7,6 @@ from distlib.database import new_dist_class
 from stack import Stack
 
 class StackTest(unittest.TestCase):
-    # todo check setup
-    # todo parametrized test
-    # todo renaming raccourci
     @classmethod
     def setUp(self):
         self.new_stack = Stack()
