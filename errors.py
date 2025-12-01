@@ -1,0 +1,3 @@
+
+class UnderflowException(Exception):
+    pass
