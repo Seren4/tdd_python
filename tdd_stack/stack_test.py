@@ -2,16 +2,12 @@ import unittest
 
 from errors import UnderflowException
 
-from distlib.database import new_dist_class
-
 from stack import Stack
 
 class StackTest(unittest.TestCase):
-    @classmethod
     def setUp(self):
         self.new_stack = Stack()
 
-    @classmethod
     def tearDown(self):
         self.new_stack = None
 

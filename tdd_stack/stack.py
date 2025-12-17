@@ -1,7 +1,7 @@
 from errors import UnderflowException
 
 
-class Stack():
+class Stack:
     __size = 0
     __elements = list(range(5))
 
